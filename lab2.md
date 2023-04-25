@@ -85,4 +85,4 @@ public class ArrayExamples {
 
 ---
 # Part 3: Reflection
-Before lab 2 and 3 I didn't know how to use the JUnit assert methods myself. I'm really grateful we had a whole lab dedicated to debugging and creating testers because I really needed it. The debugging was a good brain teaser but not too challenging allowing me to focus on figureing out how to use the JUnit tests and reading the expected vs observed messages.
+Before lab 2 and 3 I didn't know how to use the JUnit assert methods myself. I'm really grateful we had a whole lab dedicated to debugging and creating testers because I really needed it. The debugging was a good brain teaser but not too challenging allowing me to focus on figuring out how to use the JUnit tests and reading the expected vs observed messages.
