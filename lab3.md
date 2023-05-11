@@ -60,7 +60,7 @@ found the files made after Media which is the Post_Rate_Comm file and all the fi
 ---
 **-iname**
 
-similar to -iname but isn't case sensitive like -name
+similar to -name but isn't case sensitive
 
 ```
 $ cd 911report
