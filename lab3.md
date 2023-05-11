@@ -1,4 +1,7 @@
 # COMMAND: find
+all command line options were discovered here
+https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#
+
 ---
 **-empty**
 
