@@ -72,7 +72,6 @@ returning the path of the file that contains chapter-1.txt in its name
 ```
 $ find -iname chapTer-1.txt
 ./chapter-1.txt
-
 $ find -name chapTer-1.txt
 
 ```
