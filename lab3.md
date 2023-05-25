@@ -63,7 +63,7 @@ found the files made after Media which is the Post_Rate_Comm file and all the fi
 ---
 **-iname**
 
-similar to -name but isn't case sensitive. Useful when you want to find all files that contain a certain word or you have trouble finding a filme because one letter is capitalized. 
+similar to -name but isn't case sensitive. Useful when you want to find all files that contain a certain word or you have trouble finding a file because one letter is capitalized such as typying Chapter-1.txt to find chapter-1.txt
 
 ```
 $ cd 911report
