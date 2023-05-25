@@ -63,7 +63,7 @@ found the files made after Media which is the Post_Rate_Comm file and all the fi
 ---
 **-iname**
 
-similar to -name but isn't case sensitive
+similar to -name but isn't case sensitive. Useful when you want to find all files that contain a certain word or you have trouble finding a filme because one letter is capitalized. 
 
 ```
 $ cd 911report
@@ -83,7 +83,7 @@ still returning ./chapter-1.txt while searching for chapTer-1.txt incomparison t
 ---
 **-size +N/-N**
 
-finds all the files in the current directory that have a smaller or bigger amount of blocks than the given number
+finds all the files in the current directory that have a smaller or bigger amount of blocks than the given number. Useful for finding smaller or bigger files based on the amount of context they contain.
 
 ```
 $ find -size +200
