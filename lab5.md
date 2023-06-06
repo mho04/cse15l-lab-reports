@@ -6,15 +6,16 @@
 
 Adding ./ to the working directory of TestListExamples.java was correct, the reason why your code is still not running properly is because you need the working directory of lib. You also don't need it for the grading area since you already are in that directory. 
 
+After fixing the code using the input:
 ![image](https://github.com/mho04/cse15l-lab-reports/assets/130100567/bc6b27ae-4c11-49d6-a4b6-ca53d18059fd)
 The bug in this senario was the student not properly using ./ for the right paths.
 
----
+
 # Setup
 ---
 The files and directories structure was taken from lab6 list-examples-grader. Nothing in the any of the files were changed except for grade.sh
-Before fixing bug
-Code in grade.sh
+Before fixing bug, code of each file in the folder:
+grade.sh
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -207,7 +208,7 @@ public class TestListExamples {
 
 ```
 
----
+
 # Reflection
 ---
 
