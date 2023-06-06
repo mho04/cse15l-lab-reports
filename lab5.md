@@ -1,20 +1,22 @@
 # Debugging Senario
----
 ![post1](https://github.com/mho04/cse15l-lab-reports/assets/130100567/3137c6e1-d220-458e-b478-f39015c9114f)
 ![post2 2](https://github.com/mho04/cse15l-lab-reports/assets/130100567/80934605-a8de-4f78-91d0-e5fcb922b76d)
 ![output](https://github.com/mho04/cse15l-lab-reports/assets/130100567/97da4cc7-4bc9-48f4-a99c-c074aebff9c2)
 
+---
+
 Adding ./ to the working directory of TestListExamples.java was correct, the reason why your code is still not running properly is because you need the working directory of lib. You also don't need it for the grading area since you already are in that directory. 
 
+---
 After fixing the code using the input:
 ![image](https://github.com/mho04/cse15l-lab-reports/assets/130100567/bc6b27ae-4c11-49d6-a4b6-ca53d18059fd)
 The bug in this senario was the student not properly using ./ for the right paths.
 
 
 # Setup
----
 The files and directories structure was taken from lab6 list-examples-grader. Nothing in the any of the files were changed except for grade.sh
 Before fixing bug, code of each file in the folder:
+
 grade.sh
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -35,6 +37,7 @@ cd grading-area
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java TestListExamples.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
+---
 GradeServer.java
 ```
 import java.io.BufferedReader;
@@ -126,6 +129,7 @@ class ExecExamples {
   }
 }
 ```
+---
 Server.java 
 ```
 // A simple web server using Java's built-in HttpServer
@@ -182,6 +186,7 @@ public class Server {
     }
 }
 ```
+---
 TestListExamples.java
 ```
 import static org.junit.Assert.*;
@@ -207,9 +212,16 @@ public class TestListExamples {
 }
 
 ```
-
-
-# Reflection
 ---
+Command that triggered the bug: bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
+
+To fix the bugs
+1. add ./ before TestListExamples.sh on line 12
+2. add ./ before lib on line 13
+3. delete ./ before grading-area on line 11 and on line 12
+
+---
+# Reflection
+Throuhgout the entire quarter, this class was really helpful and was taught really well. I never felt too scared to asked for help during labs and when I did I got the answers I needed. There wasn't really any individual knowledge that I think I learned or found that wasn't taught already taught to every student in the class. That being said, everything I learned in this class was new knowledge. Tt was very rare for me to already know a topic that was being introduced by the class or how something worked. The most shocking thing was probably during labs for me in the beginning was probably seeing the differences between and macs and pcs and how something that would work on mac would completely crash and not work at all on a non mac. 
 
 
