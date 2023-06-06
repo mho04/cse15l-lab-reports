@@ -222,6 +222,6 @@ To fix the bugs
 
 ---
 # Reflection
-Throuhgout the entire quarter, this class was really helpful and was taught really well. I never felt too scared to asked for help during labs and when I did I got the answers I needed. There wasn't really any individual knowledge that I think I learned or found that wasn't taught already taught to every student in the class. That being said, everything I learned in this class was new knowledge. Tt was very rare for me to already know a topic that was being introduced by the class or how something worked. The most shocking thing was probably during labs for me in the beginning was probably seeing the differences between and macs and pcs and how something that would work on mac would completely crash and not work at all on a non mac. 
+Throuhgout the entire quarter, this class was really helpful and was taught really well. I never felt too scared to asked for help during labs and when I did I got the answers I needed. There wasn't really any individual knowledge that I think I learned or found that wasn't taught already taught to every student in the class. That being said, everything I learned in this class was new knowledge. It was very rare for me to already know a topic that was being introduced by the class or how something worked. The most shocking thing was probably during labs for me in the beginning was probably seeing the differences between and macs and pcs and how something that would work on mac would completely crash and not work at all on a non mac. 
 
 
